@@ -1,58 +1,712 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="./style.css">
 
-    
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <!-- Animate CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
+  <!-- Animate CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+  <!--font link-->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet" />
+  <!-- Our CSS -->
+  <link rel="stylesheet" href="./style.css" />
+  <!-- Our Responsive CSS -->
+  <link rel="stylesheet" href="responsive.css" />
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <!-- lightbox css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+  <title>Hello, world!</title>
+</head>
 
-    <!-- aya -->
+<body>
+  <!-- ahmad header start -->
+  <header>
+    <nav class="navbar navbar-expand-lg  navbar-dark d-flex justify-content-between  fixed-top nav-proper p-4 ">
+      <div><a class="navbar-brand " href="#"><img
+            src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/Jevelin_logo_light.png"></a>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse dim " id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item px-2 ">
+            <a class="nav-link font-weight-bolder text-white" href="#">Home</a>
+          </li>
+          <li class="nav-item px-2 ">
+            <a class="nav-link font-weight-bolder text-white" href="#">Gallery</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link font-weight-bolder text-white" href="#">Features</a>
+          </li>
+          <li class="nav-item px-2 ">
+            <a class="nav-link font-weight-bolder text-white" href="#">Reviews</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link font-weight-bolder text-white " href="#">Shope</a>
+          </li>
+        </ul>
+      </div>
+      <div id="header-btn-container" class=" justify-content-between align-items-center">
+
+        <div class="icon-shoping ">
+          <a href="#"><i class="fas fa-shopping-cart fa-lg "></i></a>
+          <span class=" orders-number">0</span>
+        </div>
+
+        <div class="btn buy-btn my-auto"><a href="#">Buy Now </a></div>
+      </div>
 
 
-     <!-- End aya -->
+    </nav>
+    <div class="container-fluid header-properties">
+      <div class="row justify-content-center align-items-center ">
+        <div class="col-12 col-md-6 col-lg-6 my-cloumn flex-warp  my-text-dimension ">
 
-    <!-- Hewr -->
+          <h1 class="font-weight-bold text-white font-size-header">Lifetyle <br>Smart<div data-aos="zoom-out-right">
+              Watch</div>
+          </h1>
+          <h6 class="text-white">TECHNOLOGY OF THE FUTURE</h6>
+          <p>Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit. Mauris </p>
+        </div>
+        <div class="col-12 col-md-4 col-lg-4 my-cloumn my-picture-dimension" data-aos="fade-left">
+          <img class="img-fluid "
+            src="https://jevelin.shufflehound.com/single-product/wp-content/uploads/sites/29/2018/03/Vector-Smart-Object-copy-3.png">
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ahmad header end -->
+  <!-- hewr 1st section start-->
+  <section class="section about-section py-5">
+    <div class="about-wrapper py-5" data-aos-duration="1000" data-aos="fade-up">
+      <div class="about-heading-container text-center mx-auto" data-aos-duration="1500" data-aos="fade-up">
+        <h2 class="small-main-heading small py-5">
+          ABOUT OUR WATCHES
+        </h2>
+        <h2 class="secondary-heading">
+          <span class="purple-text">New</span>,<span class="purple-text">
+            Improved</span>
+          Design and Performance
+        </h2>
+        <p class="about-paragraph p-4">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+          doloribus quia! Ratione quos cupiditate repellendus veritatis velit
+          rerum. Nihil repellat illum ipsa odit beatae praesentium dicta
+          suscipit corrupti totam pariatur.
+        </p>
+      </div>
+    </div>
+    <!-- here we added pb-5 to make the buttons inside our carousel -->
+    <div class="about-carousel pb-5" data-aos-duration="1000" data-aos="fade-up" id="large-carousel">
+      <div class="carousel-wrapper mx-auto">
+        <div id="large-carousel-wrapper" class="carousel slide" data-ride="carousel">
+          <ol id="carousel-indicators" class="carousel-indicators">
+            <li data-target="#large-carousel-wrapper" data-slide-to="0" class="active"></li>
+            <li data-target="#large-carousel-wrapper" data-slide-to="1"></li>
+            <li data-target="#large-carousel-wrapper" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <!-- here we have 3 divs every div contain 3 images and anchor -->
+
+            <!-- first slide -->
+            <div class="carousel-item active">
+              <div class="carousel-img-container d-flex justify-content-around">
+                <a class="carousel-img-anchor img-1"
+                  href="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/gallery6.jpg"
+                  data-toggle="lightbox">
+                  <img class="w-100 carousel-img"
+                    src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/gallery6.jpg"
+                    alt="First Image" />
+                  <i class="fas fa-2x fa-search-plus"></i>
+                </a>
+
+                <a class="carousel-img-anchor"
+                  href="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/gallery5.jpg"
+                  data-toggle="lightbox">
+                  <img class="w-100 carousel-img"
+                    src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/gallery5.jpg"
+                    alt="Second Image" />
+                  <i class="fas fa-2x fa-search-plus"></i>
+                </a>
+                <a class="carousel-img-anchor"
+                  href="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/gallery7.jpg"
+                  data-toggle="lightbox">
+                  <img class="w-100 carousel-img"
+                    src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/gallery7.jpg"
+                    alt="Third Image" />
+                  <i class="fas fa-2x fa-search-plus"></i>
+                </a>
+              </div>
+            </div>
+            <!-- second slide -->
+            <div class="carousel-item">
+              <div class="carousel-img-container d-flex justify-content-around">
+                <a class="carousel-img-anchor"
+                  href="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/Watchwhite5.jpg"
+                  data-toggle="lightbox">
+                  <img class="w-100 carousel-img"
+                    src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/Watchwhite5.jpg"
+                    alt="First Image" />
+                  <i class="fas fa-2x fa-search-plus"></i>
+                </a>
+                <a class="carousel-img-anchor"
+                  href="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/Watchwhite4.jpg"
+                  data-toggle="lightbox">
+                  <img class="w-100 carousel-img"
+                    src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/Watchwhite4.jpg"
+                    alt="Second Image" />
+                  <i class="fas fa-2x fa-search-plus"></i>
+                </a>
+                <a class="carousel-img-anchor"
+                  href="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/Watchwhite3.jpg"
+                  data-toggle="lightbox">
+                  <img class="w-100 carousel-img"
+                    src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/Watchwhite3.jpg"
+                    alt="Third Image" />
+                  <i class="fas fa-2x fa-search-plus"></i>
+                </a>
+              </div>
+            </div>
+            <!-- Third slide -->
+            <div class="carousel-item">
+              <div class="carousel-img-container d-flex justify-content-around">
+                <a class="carousel-img-anchor"
+                  href="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/Watchwhite3.jpg"
+                  data-toggle="lightbox">
+                  <img class="w-100 carousel-img"
+                    src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/Watchwhite3.jpg"
+                    alt="First slide" />
+                  <i class="fas fa-2x fa-search-plus"></i>
+                </a>
+
+                <a class="carousel-img-anchor"
+                  href="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/Watchwhite.jpg"
+                  data-toggle="lightbox">
+                  <img class="w-100 carousel-img"
+                    src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/Watchwhite.jpg"
+                    alt="First slide" />
+                  <i class="fas fa-2x fa-search-plus"></i>
+                </a>
+                <a class="carousel-img-anchor"
+                  href="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/Watchwhite2.jpg"
+                  data-toggle="lightbox">
+                  <img class="w-100 carousel-img"
+                    src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/Watchwhite2.jpg"
+                    alt="First slide" />
+                  <i class="fas fa-2x fa-search-plus"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- carousel buttons -->
+          <!-- sr-only is used for screen reader -->
+          <a class="carousel-control-prev" href="#large-carousel-wrapper" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#large-carousel-wrapper" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- we'll see this carousel instead of the carousel above in small screens -->
+    <!-- this carousel have 4 items each item consist of 2 images -->
+    <div class="about-carousel py-5" id="small-carousel">
+      <div class="carousel-wrapper py-5 mx-auto">
+        <div id="small-carousel-wrapper" class="carousel slide" data-ride="carousel">
+          <ol id="carousel-indicators" class="carousel-indicators">
+            <li data-target="#small-carousel-wrapper" data-slide-to="0" class="active"></li>
+            <li data-target="#small-carousel-wrapper" data-slide-to="1"></li>
+            <li data-target="#small-carousel-wrapper" data-slide-to="2"></li>
+            <li data-target="#small-carousel-wrapper" data-slide-to="3"></li>
+          </ol>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel-img-container d-flex justify-content-around">
+                <a class="carousel-img-anchor img-1"
+                  href="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/gallery6.jpg"
+                  data-toggle="lightbox">
+                  <img class="w-100 carousel-img"
+                    src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/gallery6.jpg"
+                    alt="First slide" />
+                  <i class="fas fa-2x fa-search-plus"></i>
+                </a>
+
+                <a class="carousel-img-anchor"
+                  href="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/gallery5.jpg"
+                  data-toggle="lightbox">
+                  <img class="w-100 carousel-img"
+                    src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/gallery5.jpg"
+                    alt="First slide" />
+                  <i class="fas fa-2x fa-search-plus"></i>
+                </a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-img-container d-flex justify-content-around">
+                <a class="carousel-img-anchor"
+                  href="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/gallery7.jpg"
+                  data-toggle="lightbox">
+                  <img class="w-100 carousel-img"
+                    src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/gallery7.jpg"
+                    alt="First slide" />
+                  <i class="fas fa-2x fa-search-plus"></i>
+                </a>
+                <a class="carousel-img-anchor"
+                  href="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/Watchwhite5.jpg"
+                  data-toggle="lightbox">
+                  <img class="w-100 carousel-img"
+                    src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/Watchwhite5.jpg"
+                    alt="First slide" />
+                  <i class="fas fa-2x fa-search-plus"></i>
+                </a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-img-container d-flex justify-content-around">
+                <a class="carousel-img-anchor"
+                  href="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/Watchwhite4.jpg"
+                  data-toggle="lightbox">
+                  <img class="w-100 carousel-img"
+                    src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/Watchwhite4.jpg"
+                    alt="First slide" />
+                  <i class="fas fa-2x fa-search-plus"></i>
+                </a>
+                <a class="carousel-img-anchor"
+                  href="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/Watchwhite3.jpg"
+                  data-toggle="lightbox">
+                  <img class="w-100 carousel-img"
+                    src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/Watchwhite3.jpg"
+                    alt="First slide" />
+                  <i class="fas fa-2x fa-search-plus"></i>
+                </a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-img-container d-flex justify-content-around">
+                <a class="carousel-img-anchor"
+                  href="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/Watchwhite3.jpg"
+                  data-toggle="lightbox">
+                  <img class="w-100 carousel-img"
+                    src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/Watchwhite3.jpg"
+                    alt="First slide" />
+                  <i class="fas fa-2x fa-search-plus"></i>
+                </a>
+
+                <a class="carousel-img-anchor"
+                  href="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/Watchwhite.jpg"
+                  data-toggle="lightbox">
+                  <img class="w-100 carousel-img"
+                    src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/Watchwhite.jpg"
+                    alt="First slide" />
+                  <i class="fas fa-2x fa-search-plus"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#small-carousel-wrapper" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#small-carousel-wrapper" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- hewr 2nd section end -->
+  <!-- aya -->
+  <div class="container">
+    <div class="row">
+      <!-- First column -->
+      <div class="col col-out">
+        <div data-aos="flip-down" data-aos-duration="2000">
+          <img
+            src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/Replace-screen-inside-this-SO3-1.jpg"
+            alt="Replace-screen-inside-this-SO3" />
+        </div>
+      </div>
+      <!-- Second column -->
+      <div class="col element-margin col-out">
+        <div>
+          <h2 class="heading-2">MEET WITH OUR</h2>
+        </div>
+        <div>
+          <h2 class="heading">
+            <span>Splendid Features</span>
+            <span> </span>
+          </h2>
+        </div>
+        <div class="empty"></div>
+        <div class="row" data-aos="fade-right">
+          <div class="col-1">
+            <i class="fas fa-microphone icon-color"></i>
+          </div>
+          <div class="col-11 col-11-content">
+            <h3>Voice Recognition</h3>
+            <div class="col-content">
+              Lorem ipsum dolor sit amet, con<br />
+              sectetur adipiscing elit. Mauris
+            </div>
+          </div>
+        </div>
+        <div class="empty"></div>
+        <div class="row" data-aos="fade-right">
+          <div class="col-1">
+            <i class="fa fa-mobile icon-color"></i>
+          </div>
+          <div class="col-11 col-11-content">
+            <h3>Connect with your phone</h3>
+            <div class="col-content">
+              Lorem ipsum dolor sit amet, con<br />
+              sectetur adipiscing elit. Mauris
+            </div>
+          </div>
+        </div>
+        <div class="empty"></div>
+        <div class="row" data-aos="fade-right">
+          <div class="col-1">
+            <i class="fa fa-rss icon-color"></i>
+          </div>
+          <div class="col-11 col-11-content">
+            <h3>Any task at hand</h3>
+            <div class="col-content">
+              Lorem ipsum dolor sit amet, con<br />
+              sectetur adipiscing elit. Mauris
+            </div>
+          </div>
+        </div>
+        <div class="empty"></div>
+      </div>
+    </div>
+  </div>
+  <!-- SECOND SECTION -->
+  <section>
+    <div class="container">
+      <div class="margin-element">
+        <div>
+          <h2 class="heading-2">
+            HOW IT WORKS
+          </h2>
+        </div>
+        <div class="">
+          <h2 class="heading">
+            <span class="span-content">See for yourself.</span>
+            <span>Quick video introduction</span>
+            <span> </span>
+          </h2>
+        </div>
+        <div style="height: 1rem;"></div>
+        <div class="heading-paraph-contenet">
+          <p></p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+            vitae
+          </p>
+          <p>odales lectus, non ultrices nisi. In varius, leo non gravida.</p>
+          <p></p>
+        </div>
+        <div style="height: 3rem;"></div>
+
+        <!-- image and video -->
+
+        <div class="video-play-container parent-div">
+          <div class="video-play">
+            <iframe title="Jevelin Theme - Getting Started (under 2 minutes)"
+              src="https://www.youtube.com/embed/g4n2yVPnQzs?feature=oembed" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen=""></iframe>
+          </div>
+
+          <div class="container">
+            <div class="child-div image-play mx-auto">
+              <img
+                src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/Screenshot_21-1024x577.jpg"
+                alt="" />
+              <i id="play-btn" class="fas fa-4x fa-play-circle"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End aya -->
+
+  <!-- Hewr -->
+
+  <!-- Hewr end -->
+
+  <!-- Randa -->
+  <section class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="experience-addresss">
+          <h6>NOW UPGRADED FOR</h6>
+          <span>Best Experience</span>
+        </div>
+        <div class="experience-content progress-div">
+          <h2>+ Increased storage</h2>
+          <p>
+            Lorem ipsum dolor sit amet, con<br />
+            sectetur adipiscing elit. Mauris
+          </p>
+          <div class="progress">
+            <div id="one" class="progress-bar progress-item1" role="progressbar" aria-valuenow="30" aria-valuemin="0"
+              aria-valuemax="100" style="width: 30%;"></div>
+          </div>
+          <div class="progress-text">30%</div>
+        </div>
+
+        <div class="experience-content progress-div">
+          <h2>+ Battery life</h2>
+          <p>
+            Lorem ipsum dolor sit amet, con<br />
+            sectetur adipiscing elit. Mauris
+          </p>
+          <div class="progress">
+            <div id="one" class="progress-bar progress-item2" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+              aria-valuemax="100" style="width: 80%;"></div>
+          </div>
+          <div class="progress-text">80%</div>
+        </div>
+
+        <div class="experience-content progress-div">
+          <h2>+ Display surface</h2>
+          <p>
+            Lorem ipsum dolor sit amet, con<br />
+            sectetur adipiscing elit. Mauris
+          </p>
+          <div class="progress">
+            <div id="one" class="progress-bar progress-item3" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+              aria-valuemax="100" ` style="width: 60%;"></div>
+          </div>
+          <div class="progress-text">60%</div>
+        </div>
+      </div>
+      <!--experience img-->
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <div data-aos="flip-up" data-aos-duration="2000" class="experience-img">
+          <img
+            src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/Group-811211112-copy-71-1.jpg"
+            alt="mobile" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--end  Best Experience (by randa)-->
+  <!-- hewr 2nd section start  -->
+  <section class="adjustable-straps-section py-5">
+    <div class="pt-5 adjustable-straps-wrapper d-flex flex-column justify-content-center text-center">
+      <div data-aos-duration="1000" data-aos="fade-up" class="about-heading-container text-center mx-auto">
+        <h2 class="small-main-heading small py-5 about-container">
+          ADJUSTABLE STRAPS
+        </h2>
+        <h2 class="text-white secondary-heading">
+          Choose the best color for your activity
+        </h2>
+      </div>
+      <div class="product-color-row row pl-4 mt-5 justify-content-around">
+        <div data-aos-duration="1000" data-aos="flip-left" class="watch watch-1 green-watch text-center py-3">
+          <div class="watch-wrapper pt-3">
+            <h2 class="small product-main-header pt-5">WRIST BRAND</h2>
+            <h2>
+              <a class="product-color-header pt-2" href="#" class="">Mint Green</a>
+            </h2>
+            <h2 class="product-price py-3">25.5$</h2>
+          </div>
+        </div>
+
+        <div data-aos-duration="1000" data-aos-delay="500" data-aos-offset="0" data-aos="flip-left"
+          class="watch watch-2 green-watch text-center py-3">
+          <div class="watch-wrapper pt-3">
+            <h2 class="small product-main-header pt-5">WRIST BRAND</h2>
+            <h2>
+              <a class="product-color-header pt-2" href="#" class="">Purple Berry</a>
+            </h2>
+            <h2 class="product-price py-3">25.5$</h2>
+          </div>
+        </div>
+
+        <div data-aos-duration="1000" data-aos-delay="1000" data-aos-offset="0" data-aos="flip-left"
+          class="watch watch-3 green-watch text-center py-3">
+          <div class="watch-wrapper pt-3">
+            <h2 class="small product-main-header pt-5">WRIST BRAND</h2>
+            <h2>
+              <a class="product-color-header pt-2" href="#" class="">Mint Green</a>
+            </h2>
+            <h2 class="product-price py-3">25.5$</h2>
+          </div>
+        </div>
+      </div>
+      <div class="btn product-color-btn mx-auto mt-5">
+        <a href="#">SEE MORE</a>
+      </div>
+    </div>
+  </section>
+  <!-- hewr 2nd section end -->
+  <!--start what our customers say (by randa)-->
+  <section class="silder-area">
+    <div class="container">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="slide-addres">
+            <h1>what our</h1>
+            <h1>customers say</h1>
+          </div>
+          <div class="carousel-item active">
+            <div class="img-area">
+              <img
+                src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/tyler-nix-626668-unsplash.jpg"
+                alt="..." />
+            </div>
+            <div class="carousel-caption">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                sapien leo, iaculis rutrum lacus sed, fermentum tempor odio.
+                Integer in ipsum eleifend ipsum mattis pulvinar at vitae
+                magna.
+              </p>
+              <h3>Maggie Wilson</h3>
+              <span>99</span>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="img-area">
+              <img
+                src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/29/2018/03/tyler-nix-626668-unsplash2.jpg"
+                alt="..." />
+            </div>
+            <div class="carousel-caption">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                sapien leo, iaculis rutrum lacus sed, fermentum tempor odio.
+                Integer in ipsum eleifend ipsum mattis pulvinar at vitae
+                magna.
+              </p>
+              <h3>Ella Jonson</h3>
+              <span>99</span>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- Randa end -->
+
+  <!-- Ahmed footer start -->
+  <footer>
+    <div class="social-media-icons">
+      <ul class="social-media-icons-list">
+        <li><a href="#"> <i class="fab fa-youtube fa-3x icon-color"></i></a></li>
+        <li><a href="#"> <i class="fab fa-twitter fa-3x icon-color"> </i></a></li>
+        <li><a href="#"> <i class="fab fa-facebook-f fa-3x icon-color"> </i></a></li>
+        <li><a href="#"> <i class="fab fa-instagram fa-3x icon-color"> </i></a></li>
+      </ul>
+
+    </div>
+    <div class="background-footer">
+      <div class="big-container-cards-footer">
+
+
+        <div class="footer-cards">
+          <div>
+            <h3 id="jelevin">Jelevin</h3>
+          </div>
+          <p class="p-fonts-footer-sections wrap-it">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.
+          </p>
+
+          <ul class="icons-list">
+            <li><a href="#"><i class="fab fa-cc-visa fa-lg icon-color"></i></a></li>
+            <li><a href="#"><i class="fab fa-cc-amex fa-lg icon-color"></i></a></li>
+            <li><a href="#"><i class="fab fa-cc-paypal fa-lg icon-color"></i></a></li>
+            <li><a href="#"><i class="fab fa-cc-jcb fa-lg icon-color"></i></a></li>
+            <li><a href="#"><i class="fab fa-cc-mastercard fa-lg icon-color"></i></a></li>
+          </ul>
+          <div id="last-line-first-card">
+            <i class="fas fa-lock"></i>
+            <span class="p-fonts-footer-sections">Secure online payment</span>
+          </div>
 
 
 
+        </div>
 
-    <!-- Hewr end -->
+        <div class="footer-cards">
+          <h6 class="p-fonts-footer-sections">BEST EXPERIENCE</h6>
+          <div>
+            <ul class="ul-footer">
+              <li><a href="#" class="a-fonts-footer-sections">FAQ</a></li>
+              <li><a href="#" class="a-fonts-footer-sections">Shipment</a></li>
+              <li><a href="#" class="a-fonts-footer-sections">Returns</a></li>
+              <li><a href="#" class="a-fonts-footer-sections">Gift cards</a></li>
+              <li><a href="#" class="a-fonts-footer-sections">Policies</a></li>
+            </ul>
+          </div>
+        </div>
 
+        <div class="footer-cards">
+          <h6 id="far-header" class="p-fonts-footer-sections">COMPANY</h6>
+          <div>
+            <ul class="ul-footer">
+              <li><a href="#" class="a-fonts-footer-sections">About us</a></li>
+              <li><a href="#" class="a-fonts-footer-sections">Press</a></li>
+              <li><a href="#" class="a-fonts-footer-sections">Offices</a></li>
+              <li><a href="#" class="a-fonts-footer-sections">Affiliates</a></li>
+              <li><a href="#" class="a-fonts-footer-sections">Giveaway</a></li>
+            </ul>
+          </div>
+        </div>
 
+        <div id="last-line-in-footer">
+          <div class="last-div-footer">
+            <span class="p-fonts-footer-sections last-span">Copyright © 2018 JevelinTheme – Theme by Shufflehound</span>
+          </div>
+        </div>
+      </div>
 
+    </div>
+  </footer>
+  <!-- Ahmed footer end -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+  <script>
+    $(document).on("click", '[data-toggle="lightbox"]', function (event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+    });
+    AOS.init();
+  </script>
+</body>
 
-
-    <!-- Randa -->
-
-
-
-    <!-- Randa end -->
-
-
-    <!-- Ahmed -->
-
-
-
-
-
-
-    <!-- Ahmed end -->
-
-
-
-   
-    
-  </body>
 </html>
